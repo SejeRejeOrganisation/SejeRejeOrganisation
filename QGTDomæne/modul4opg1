@@ -1,0 +1,16 @@
+  ## Forretningsentiteter
+  
+   Booking - En booking er når en kunde har kontaktet virksomheden og bestilt en 
+tur på et bestemt tidspunkt.
+
+   Taxa - En taxa er det køretøj, der bliver kørt af en chauffør. En taxa har typisk et specifikt nummer.
+   
+   Kunde - Kunden, der benytter sig af taxaen
+   
+   Central - Modtager opkald fra kunder
+   
+   Chauffør - En chauffør er tilknyttet en taxa.
+   
+   Vognmand - Ejer flåden af taxaer og sørger for struktur i call-centret
+   
+   Betaling - Kontant eller kort
