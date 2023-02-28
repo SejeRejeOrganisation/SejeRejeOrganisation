@@ -1,0 +1,27 @@
+{ 
+"@context": {
+"Address1":"https://schema.org/pickupLocation",
+"Name":"https://schema.org/underName",
+"Id":"https://schema.org/bookingId"
+},
+  "$schema": "https://json-schema.org/draft/2020-12/schema", 
+  "$id": "https://example.com/product.schema.json", 
+  "title": "Taxi Booking", 
+  "description": "A taxi booking made by a customer", 
+  "type": "object",
+  "properties": { 
+    "bookingId": { 
+      "description": "The unique identifier for a booking", 
+      "type": "integer" 
+    }, 
+    "Address1": {
+    "description":"Where a taxi will pickup a passenger or rental car",
+    "type": "string"
+    },
+    "Name": {
+    "description":"The person or organization the reservation or ticket is for",
+    "type": "string"
+    }, 
+  }, 
+  "required": [ "bookingId" ]  
+}
